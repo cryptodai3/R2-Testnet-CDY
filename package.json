@@ -1,0 +1,20 @@
+{
+  "name": "YetiDAO - R2 Testnet Bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Cryptodai3",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "blessed": "^0.1.81",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.7",
+    "figlet": "^1.8.0",
+    "form-data": "^4.0.2",
+    "uuid": "^11.1.0"
+  }
+}
