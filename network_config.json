@@ -1,0 +1,45 @@
+{
+  "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+  "chain_id": 11155111,
+  "slippage": 0.005,
+
+  "tokens": {
+    "R2": {
+      "address": "0xb816bB88f836EA75Ca4071B46FF285f690C43bb7",
+      "decimals": 18
+    },
+    "USDC": {
+      "address": "0x8BEbFCBe5468F146533C182dF3DFbF5ff9BE00E2",
+      "decimals": 6
+    },
+    "R2USD": {
+      "address": "0x9e8ff356d35a2da385c546d6bf1d77ff85133365",
+      "decimals": 18
+    },
+    "sR2USD": {
+      "address": "0x006cbf409ca275ba022111db32bdae054a97d488",
+      "decimals": 6
+    },
+    "WBTC": {
+      "address": "0x4f5b54d4AF2568cefafA73bB062e5d734b55AA05",
+      "decimals": 8
+    }
+  },
+
+  "swap_routers": {
+    "r2_to_usdc": "0xeE567Fe1712Faf6149d80dA1E6934E354124CfE3",
+    "usdc_to_r2usd": "0xeE567Fe1712Faf6149d80dA1E6934E354124CfE3"
+  },
+
+  "swap_amounts": {
+    "r2_to_usdc": "0.1",
+    "usdc_to_r2usd": "0.1"
+  },
+
+  "router_lp": {
+    "standard": "0xeE567Fe1712Faf6149d80dA1E6934E354124CfE3",
+    "matrix": "0x47d1B0623bB3E557bF8544C159c9ae51D091F8a2"
+  },
+
+  "staking_contract": "0x23b2615d783E16F14B62EfA125306c7c69B4941A"
+}
